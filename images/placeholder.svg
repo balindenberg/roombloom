@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Placeholder image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dff4f1" />
+      <stop offset="50%" stop-color="#f7e6ef" />
+      <stop offset="100%" stop-color="#fff3d4" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)" />
+  <rect x="80" y="90" width="640" height="420" rx="36" fill="rgba(255,255,255,0.75)" />
+  <path d="M160 430 L300 280 L420 390 L520 260 L640 430 Z" fill="#2b9a93" fill-opacity="0.2" />
+  <circle cx="230" cy="230" r="42" fill="#e07aa7" fill-opacity="0.25" />
+  <text x="50%" y="52%" text-anchor="middle" fill="#2c2c2c" font-family="Manrope, sans-serif" font-size="28">
+    Placeholder Image
+  </text>
+  <text x="50%" y="58%" text-anchor="middle" fill="#2c2c2c" font-family="Manrope, sans-serif" font-size="16" opacity="0.6">
+    Replace with before/after photos
+  </text>
+</svg>

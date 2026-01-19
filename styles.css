@@ -1,0 +1,258 @@
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.hero-section {
+  background: radial-gradient(circle at top, rgba(43, 154, 147, 0.15), transparent 55%),
+    linear-gradient(120deg, rgba(240, 196, 83, 0.12), transparent 45%);
+}
+
+.section-padding {
+  padding: 5rem 0;
+}
+
+.section-title {
+  font-family: "Fraunces", serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  background: #2c2c2c;
+  color: #fffaf7;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  z-index: 50;
+}
+
+.nav-link {
+  color: rgba(44, 44, 44, 0.75);
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2b9a93;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #2c2c2c;
+  color: #fffaf7;
+  padding: 0.75rem 1.75rem;
+  font-weight: 600;
+  box-shadow: 0 12px 30px rgba(44, 44, 44, 0.18);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 35px rgba(44, 44, 44, 0.22);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 1px solid rgba(44, 44, 44, 0.3);
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  color: #2c2c2c;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus {
+  border-color: #2b9a93;
+  color: #2b9a93;
+}
+
+.rainbow-ring {
+  padding: 2px;
+  border-radius: 999px;
+  background: linear-gradient(120deg, #2b9a93, #e07aa7, #f1c453);
+}
+
+.rainbow-pill {
+  border-radius: 999px;
+  background: linear-gradient(120deg, rgba(43, 154, 147, 0.2), rgba(224, 122, 167, 0.2), rgba(241, 196, 83, 0.2));
+  color: #2c2c2c;
+}
+
+.rainbow-frame {
+  padding: 3px;
+  border-radius: 36px;
+  background: linear-gradient(140deg, rgba(43, 154, 147, 0.7), rgba(224, 122, 167, 0.7), rgba(241, 196, 83, 0.7));
+}
+
+.card {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  box-shadow: 0 12px 30px rgba(44, 44, 44, 0.12);
+}
+
+.card-title {
+  font-family: "Fraunces", serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  margin-top: 0.5rem;
+  color: rgba(44, 44, 44, 0.7);
+}
+
+.card-link {
+  display: inline-flex;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #2b9a93;
+}
+
+.process-step {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 1.5rem;
+}
+
+.step-number {
+  display: inline-flex;
+  height: 2.25rem;
+  width: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: rgba(224, 122, 167, 0.2);
+  font-weight: 700;
+}
+
+.step-title {
+  margin-top: 1rem;
+  font-family: "Fraunces", serif;
+  font-size: 1.1rem;
+}
+
+.step-text {
+  margin-top: 0.5rem;
+  color: rgba(44, 44, 44, 0.7);
+}
+
+.price-card {
+  border-radius: 24px;
+  border: 1px solid rgba(44, 44, 44, 0.1);
+  padding: 1.75rem;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.price-label {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: rgba(44, 44, 44, 0.6);
+}
+
+.price-value {
+  margin-top: 0.75rem;
+  font-family: "Fraunces", serif;
+  font-size: 1.75rem;
+}
+
+.price-text {
+  margin-top: 0.75rem;
+  color: rgba(44, 44, 44, 0.7);
+}
+
+.gallery-item {
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 12px 30px rgba(44, 44, 44, 0.1);
+}
+
+.gallery-item img {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery-item figcaption {
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}
+
+.story-card {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.75rem;
+  box-shadow: 0 12px 30px rgba(44, 44, 44, 0.12);
+}
+
+.story-title {
+  font-family: "Fraunces", serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.story-text {
+  margin-top: 0.75rem;
+  color: rgba(44, 44, 44, 0.75);
+}
+
+.faq-item {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 10px 25px rgba(44, 44, 44, 0.08);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item p {
+  margin-top: 0.75rem;
+  color: rgba(44, 44, 44, 0.7);
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 3.5rem 0;
+  }
+
+  .section-title {
+    font-size: 1.9rem;
+  }
+}
